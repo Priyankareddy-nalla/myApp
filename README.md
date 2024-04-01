@@ -78,6 +78,10 @@ events is displayed.
 
 
 
+## Serverless functions in myApp:
+ In myApp serverless functions for authentication and access token generation, MyApp ensures secure and efficient access to public calendar events from the 
+ Google Calendar API. Additionally, utilizing AWS Lambda as the cloud-service provider for these serverless functions enhances scalability and cost- 
+ effectiveness, as resources are dynamically allocated based on demand, and the app only pays for the compute resources used during function execution.
 
 
 
