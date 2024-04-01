@@ -72,8 +72,11 @@ Scenario 1: Show a chart with the number of upcoming events in each city.
 * **Given** the application includes a feature to display charts visualizing event details.
 * **When** the user accesses the section of the application dedicated to displaying data visualizing event details.
 * **Then** a chart is generated, displaying the number of upcoming events for each city. The chart may use different visual representations, such as bar charts, 
-  pie charts, or line graphs, to effectively communicate the information. Each city is represented on the chart, and the corresponding number of upcoming 
-  events is displayed.
+pie charts, or line graphs, to effectively communicate the information. Each city is represented on the chart, and the corresponding number of upcoming 
+events is displayed.
+
+
+
 
 
 
