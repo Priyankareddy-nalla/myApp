@@ -27,6 +27,7 @@ const CitySearch = ({ allLocations, setCurrentCity }) => {
     setCurrentCity(value);
   };
 
+
   return (
     <div id="city-search">
       <input
@@ -53,3 +54,4 @@ const CitySearch = ({ allLocations, setCurrentCity }) => {
 }
 
 export default CitySearch;
+

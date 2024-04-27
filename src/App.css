@@ -3,7 +3,8 @@
 .App {
   text-align: center;
   padding: 2% 5%;
-  /* background-color: rgb(238, 149, 243); */
+  background-color: black;
+  color: white;
 }
 
 .App * {
@@ -20,13 +21,11 @@ p {
 }
 
 input[type="text"],
-input[type="number"] {
+input[type="number"]{
   padding: 8px 6px 8px 10px;
   border-radius: 4px;
   outline: none;
-  /* border: 1px solid #ccc; */
   border: 1px solid #3a43e9;
-
   font-size: 14px;
   line-height: 20px;
   align-self: center;
@@ -36,6 +35,16 @@ input[type="number"] {
 
 .city {
   width: 250px;
+  padding: 8px 6px 8px 10px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #3a43e9;
+  font-size: 14px;
+  line-height: 20px;
+  align-self: center;
+  height: 38px;
+  margin-bottom: 20px;
+
 }
 
 #city-search {
@@ -53,7 +62,7 @@ input[type="number"] {
   align-self: center;
   margin: 0;
   font-size: 14px;
-  box-shadow: 10px 10px 16px -12px rgba(0, 0, 0, 0.75);
+  color: black;
 }
 
 .suggestions>li {
@@ -69,7 +78,7 @@ input[type="number"] {
 }
 
 .suggestions>li:hover {
-  background-color: #bcdcdb;
+  background-color: #d1a1f3;
 }
 
 .event {
@@ -79,6 +88,8 @@ input[type="number"] {
   border: 1px solid #3a43e9;
   border-radius: 4px;
   position: relative;
+  color: white;
+  box-shadow: 5px 5px 5px blueviolet;
 }
 
 .details-btn {
@@ -89,5 +100,33 @@ input[type="number"] {
   border-radius: 4px;
   outline: none;
   cursor: pointer;
-  background-color: rgb(235, 103, 229);
+  color: white;
+  background-color: blueviolet;
+  animation: pulse 1.5s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.details-btn:hover {
+  background-color: rgb(237, 113, 237);
+  animation: none;
+}
+
+
+h1 {
+  font-size: 3em;
+  color: blueviolet;
+}
+
+.error-alert {
+  color: red;
+  font-weight: bold;
 }

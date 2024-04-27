@@ -1,8 +1,8 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
-const NumberOfEvents = ({ setCurrentNOE, setErrorAlert }) => {
-
+const NumberOfEvents = ({ setCurrentNOE }) => {
   const [numEvents, setNumEvents] = useState("32");
+  const [error, setError] = useState("");
 
   const handleInputChanged = (event) => {
     const value = event.target.value;
@@ -10,14 +10,14 @@ const NumberOfEvents = ({ setCurrentNOE, setErrorAlert }) => {
 
     let infoText;
     if (isNaN(value) || value <= 0) {
-      infoText = "Only positive numbers are allowed"
+      infoText = "Only positive numbers are allowed";
+      setError(infoText);
     } else {
       infoText = "";
+      setError(infoText);
       setCurrentNOE(value);
     }
-    // setErrorAlert(infoText);
-    console.log(infoText);
-  }
+  };
 
   return (
     <div id="number-of-events">
@@ -28,9 +28,9 @@ const NumberOfEvents = ({ setCurrentNOE, setErrorAlert }) => {
         value={numEvents}
         onChange={handleInputChanged}
       />
+      {error && <div className="error-alert">{error}</div>}
     </div>
   );
-}
-
+};
 
 export default NumberOfEvents;
