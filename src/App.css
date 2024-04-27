@@ -38,7 +38,7 @@ input[type="number"]{
   padding: 8px 6px 8px 10px;
   border-radius: 4px;
   outline: none;
-  border: 1px solid #3a43e9;
+  border: 1px solid blueviolet;
   font-size: 14px;
   line-height: 20px;
   align-self: center;
@@ -85,7 +85,7 @@ input[type="number"]{
   padding: 10px 10px 35px;
   margin-bottom: 10px;
   text-align: left;
-  border: 1px solid #3a43e9;
+  border: 1px solid blueviolet;
   border-radius: 4px;
   position: relative;
   color: white;
@@ -130,3 +130,11 @@ h1 {
   color: red;
   font-weight: bold;
 }
+
+.clear-btn {
+  color: red;
+  border: blueviolet;
+  cursor: pointer;
+  padding: 10px;
+}
+
