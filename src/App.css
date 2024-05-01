@@ -21,7 +21,7 @@ p {
 }
 
 input[type="text"],
-input[type="number"]{
+input[type="number"] {
   padding: 8px 6px 8px 10px;
   border-radius: 4px;
   outline: none;
@@ -126,11 +126,6 @@ h1 {
   color: blueviolet;
 }
 
-.error-alert {
-  color: red;
-  font-weight: bold;
-}
-
 .clear-btn {
   color: red;
   border: blueviolet;
@@ -138,3 +133,10 @@ h1 {
   padding: 10px;
 }
 
+.alerts-container {
+  position: fixed;
+  top: 0px;
+  left: 20px;
+  width: 250px;
+  z-index: 1000;
+}
