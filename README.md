@@ -84,7 +84,34 @@ events is displayed.
  effectiveness, as resources are dynamically allocated based on demand, and the app only pays for the compute resources used during function execution.
 
 
+# Installations:
+* npm install --save-dev gh-pages
+* npm install -g serverless
+* npm install googleapis@^110.0.0 --save
+* npm install http-server -g
+* npm install --save @testing-library/user-event@14
+* npm install jest-cucumber --save-dev
+* npm install --save-dev puppeteer@18.1.0
+* npm install --save atatus-spa
 
+  
+# Features
+* React application
+* Test-Driven Development (TDD) approach
+* Integration with Google Calendar API
+* OAuth2 authentication flow
+* Serverless functions (AWS Lambda) for authorization server
+* Code hosted in a Git repository on GitHub
+* Responsive design for all screen sizes (including widths of 1920px and 320px)
+* Passes Lighthouse’s Progressive Web App (PWA) checklist
+* Works offline or in slow network conditions with a service worker
+* Ability for users to install the app on desktop and add it to their home screen on mobile
+* Deployed on GitHub Pages
+* Implements an alert system using an Object-Oriented Programming (OOP) approach to show information to the user
+* Utilizes data visualization
+* Test coverage rate >= 90%
+* Monitored using an online performance monitoring tool
+  
 
 
 
