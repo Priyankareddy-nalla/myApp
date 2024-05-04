@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import { extractLocations, getEvents } from './api';
 import './App.css';
 import { InfoAlert, ErrorAlert, WarningAlert } from './components/Alert';
+import CityEventsChart from './components/CityEventsChart';
 
 
 
@@ -18,7 +19,7 @@ const App = () => {
   const [errorAlert, setErrorAlert] = useState("");
   const [warningAlert, setWarningAlert] = useState("");
 
-//WarningAlert
+  //WarningAlert
   useEffect(() => {
     let infoText;
     if (navigator.onLine) {
@@ -56,6 +57,8 @@ const App = () => {
       <NumberOfEvents currentNOE={currentNOE}
         setCurrentNOE={setCurrentNOE}
         setErrorAlert={setErrorAlert} />
+      <CityEventsChart allLocations={allLocations}
+        events={events} />
       <EventList events={events} />
     </div>
   );
