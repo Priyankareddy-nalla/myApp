@@ -112,10 +112,18 @@ events is displayed.
 * Test coverage rate >= 90%
 * Monitored using an online performance monitoring tool
   
+#Technologies used:
+* Serverless Backend: AWS Lambda,OAuth2 
+* PWA: React for frontend development.
+* Service Workers for offline support.
+* Web App Manifest for add-to-home-screen prompt.
+* Testing: Jest, Puppeteer.
+* Deployed on GitHub Pages.
+* Data Visualization: Recharts.
 
 
-
-
+# Link to App
+https://priyankareddy-nalla.github.io/myApp
 
 
 
