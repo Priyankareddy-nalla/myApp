@@ -112,7 +112,7 @@ events is displayed.
 * Test coverage rate >= 90%
 * Monitored using an online performance monitoring tool
   
-#Technologies used:
+# Technologies used:
 * Serverless Backend: AWS Lambda,OAuth2 
 * PWA: React for frontend development.
 * Service Workers for offline support.
