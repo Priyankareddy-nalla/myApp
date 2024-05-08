@@ -85,15 +85,9 @@ events is displayed.
 
 
 # Installations:
-* npm install --save-dev gh-pages
-* npm install -g serverless
-* npm install googleapis@^110.0.0 --save
-* npm install http-server -g
-* npm install --save @testing-library/user-event@14
-* npm install jest-cucumber --save-dev
-* npm install --save-dev puppeteer@18.1.0
-* npm install --save atatus-spa
-
+* Node.js
+* npm run start (to satrt the app locally)
+* npm run deploy (to deploy the application)
   
 # Features
 * React application
