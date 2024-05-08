@@ -86,6 +86,8 @@ events is displayed.
 
 # Installations:
 * Node.js
+
+## Command line tool
 * npm run start (to satrt the app locally)
 * npm run deploy (to deploy the application)
   
